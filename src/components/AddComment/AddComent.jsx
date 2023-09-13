@@ -3,9 +3,8 @@ import "./AddComent.css";
 import SendIcon from "@mui/icons-material/Send";
 import user4 from "../../assets/user4.png";
 
-const AddComent = ({ handleComments, like, setLike, handleReplies }) => {
+const AddComent = ({ handleComments, like, setLike, }) => {
   const [newComent, setNewComent] = useState("");
-  const [repky, setReply] = useState([]);
   const handleSubmit = (parentIndex = null) => {
     if (newComent.trim() !== "") {
       const commentData = {
@@ -15,7 +14,6 @@ const AddComent = ({ handleComments, like, setLike, handleReplies }) => {
       };
 
       handleComments(commentData, parentIndex);
-
       console.log(newComent, "what a comment");
       setNewComent("");
       const newLike = [...like, 0];

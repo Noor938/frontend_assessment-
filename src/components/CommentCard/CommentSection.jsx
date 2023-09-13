@@ -1,7 +1,7 @@
 import React from "react";
 import "./CommentSection.css";
 import { useState } from "react";
-import { comment_data } from "../../dummy";
+import { comment_data } from "../../utils/dummy";
 import AddComent from "../AddComment/AddComent";
 import ReplyComment from "../ReplyComment/ReplyComment";
 
