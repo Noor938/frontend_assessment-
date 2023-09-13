@@ -1,0 +1,21 @@
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.comment_input {
+  width: 100%;
+  padding: 12px;
+  background-color: #f8f9fb;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-right: 35px;
+}
+.send_icon {
+  position: absolute;
+  right: 11px;
+  rotate: 313deg;
+  color: #6590ff;
+  cursor: pointer;
+}

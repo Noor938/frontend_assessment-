@@ -1,0 +1,41 @@
+.comment_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  flex-direction: column;
+}
+.comment_card {
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+.content_wrappper {
+  display: flex;
+  gap: 18px;
+}
+.comment_bio_wrapper {
+  width: 100%;
+}
+.icon_reply_wrapper {
+  display: flex;
+  gap: 25px;
+  margin-top: 12px;
+  align-items: center;
+}
+.comment_bio_wrapper p {
+  color: #646464;
+  font-weight: 300;
+}
+.name {
+  color: #000000;
+  font-weight: 500;
+}
+.reply {
+  color: #6590ff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.remove {
+  color: #e33e38;
+  cursor: pointer;
+}

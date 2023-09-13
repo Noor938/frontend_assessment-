@@ -1,0 +1,8 @@
+.icons_count {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.red_like {
+  color: #e33e38;
+}
